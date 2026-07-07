@@ -1,0 +1,42 @@
+{
+  "identifier" : "Trapline",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "TRAPLINEGROUP",
+      "localizations" : [],
+      "name" : "Trapline Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "trapline_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Multi-camera dashboard and species frequency stats",
+              "displayName" : "Trapline Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.trapline.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Trapline Pro Monthly",
+          "subscriptionGroupID" : "TRAPLINEGROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
